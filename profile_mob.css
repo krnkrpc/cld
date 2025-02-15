@@ -1,0 +1,19 @@
+.my {
+    width: 50%;margin:0 auto; margin-top: 15px;
+}
+
+#a {
+    width:50%; margin:0 auto;
+}
+
+@media(max-width:765px){
+    .my {
+        width: 100%;
+    }
+    #a {
+        width: 100%;
+    }
+    .address {
+        font-size: 12px;
+    }
+}

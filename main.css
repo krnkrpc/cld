@@ -1,0 +1,37 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'DM Sans',sans-serif}:root{--block-color:#1e202a;--block-lighter:#282b39;--border:rgb(119 119 119 / 85%);--header:#ababab;--describe-text:hsl(215.416.3%56.9%)}.navbar-brand{color:white}#profile-button{border:0}body{font-family:Arial,sans-serif;min-height:100vh;background-image:url('../../images/bg.png');background-repeat:repeat}.filters{padding:10px;text-align:center}.filters input{padding:5px;width:200px;margin-right:10px}.filters button{padding:5px 10px}.layout{display:grid;grid-template-columns:1fr 64% 1fr;gap:20px;flex-grow:1;padding:20px;flex-direction:column}body{user-select:none;-webkit-user-select:none;-ms-user-select:none}.left-block,.content,.right-block{padding:20px}ul{list-style-type:none}.content ul li{background-color:#323232;color:white;padding:20px;margin-bottom:10px;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,0.1)}.content ul li span{float:right;color:gray}nav li button{background-color:none;position:relative;display:block;padding:10px 15px}.left-block{z-index:1}.content{z-index:1}.text-muted{color:var(--header) !important}.ftl{font-size:12px;color:grey}
+.navbar-toggler {
+    border-color: white !important; /* Change border color */
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+    outline: none !important; /* Remove blue focus */
+    box-shadow: none !important; /* Remove glow */
+    border-color: white !important; /* Ensure border stays white */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Make icon white */
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.modal-dialog {
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+@media(max-width:765px){
+    .bc {
+        width: 100%;
+    }
+}
